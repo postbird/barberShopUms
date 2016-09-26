@@ -1,0 +1,397 @@
+[ 2016-08-06T23:13:01+08:00 ] ::1 /barberShopUMS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-06T23:13:06+08:00 ] ::1 /barberShopUMS/index.php/Home/System/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-06T23:13:06+08:00 ] ::1 /barbershopums/index.php/Home/System/showConsumeInte?_=1470496386810
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SELECT * FROM bsums_consume_inte ; [ RunTime:0.0009s ]
+
+[ 2016-08-06T23:13:08+08:00 ] ::1 /barbershopums/index.php/Home/System/showLevel?_=1470496386811
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SELECT * FROM bsums_level; [ RunTime:0.2118s ]
+
+[ 2016-08-06T23:13:11+08:00 ] ::1 /barberShopUMS/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000546s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-06T23:13:11+08:00 ] ::1 /barbershopums/index.php/Home/System/showConsumeType?_=1470496391222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SELECT * FROM bsums_consume_type ; [ RunTime:0.0005s ]
+
+[ 2016-08-06T23:13:11+08:00 ] ::1 /barbershopums/index.php/Home/System/showEmp?_=1470496391223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SELECT * FROM bsums_emp; [ RunTime:0.0006s ]
+
+[ 2016-08-06T23:13:13+08:00 ] ::1 /barbershopums/index.php/Home/User/showAllUser?_=1470496391224
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SELECT card_guid,card_username,card_userphone FROM bsums_mcard; [ RunTime:0.0004s ]
+SQL: SELECT card_guid,card_username,card_userphone FROM bsums_tcard; [ RunTime:0.0003s ]
+
+[ 2016-08-06T23:13:16+08:00 ] ::1 /barbershopums/index.php/Home/User/searchUserByGuid?search=2&card=111111&_=1470496391225
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SELECT * FROM bsums_mcard WHERE card_guid='111111';  [ RunTime:0.0005s ]
+SQL: SELECT *  FROM bsums_tcard WHERE card_guid='111111';  [ RunTime:0.0004s ]
+
+[ 2016-08-06T23:13:45+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-06T23:13:45+08:00 ] ::1 /barbershopums/index.php/Home/System/showConsumeType?_=1470496425369
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SELECT * FROM bsums_consume_type ; [ RunTime:0.0005s ]
+
+[ 2016-08-06T23:13:45+08:00 ] ::1 /barbershopums/index.php/Home/System/showEmp?_=1470496425370
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SELECT * FROM bsums_emp; [ RunTime:0.0003s ]
+
+[ 2016-08-06T23:13:46+08:00 ] ::1 /barbershopums/index.php/Home/User/searchUserByGuid/search/2/card/111111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+SQL: SELECT * FROM bsums_mcard WHERE card_guid='111111';  [ RunTime:0.0006s ]
+SQL: SELECT *  FROM bsums_tcard WHERE card_guid='111111';  [ RunTime:0.0005s ]
+
+[ 2016-08-06T23:14:28+08:00 ] ::1 /barbershopums/index.php/Home/User/testFunction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_mcard [ RunTime:0.0003s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_tcard [ RunTime:0.0002s ]
+
+[ 2016-08-06T23:14:56+08:00 ] ::1 /barbershopums/index.php/Home/User/testFunction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_mcard [ RunTime:0.0005s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_tcard [ RunTime:0.0003s ]
+
+[ 2016-08-06T23:15:14+08:00 ] ::1 /barbershopums/index.php/Home/User/testFunction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_mcard [ RunTime:0.0007s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_tcard [ RunTime:0.0005s ]
+
+[ 2016-08-06T23:15:55+08:00 ] ::1 /barbershopums/index.php/Home/User/testFunction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_mcard [ RunTime:0.0004s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_tcard [ RunTime:0.0002s ]
+
+[ 2016-08-06T23:15:59+08:00 ] ::1 /barbershopums/index.php/Home/User/testFunction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_mcard [ RunTime:0.0003s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_tcard [ RunTime:0.0003s ]
+
+[ 2016-08-06T23:16:28+08:00 ] ::1 /barbershopums/index.php/Home/User/testFunction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_mcard [ RunTime:0.0004s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_tcard [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-06T23:16:40+08:00 ] ::1 /barbershopums/index.php/Home/User/testFunction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111113','111112') [ RunTime:0.0518s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_mcard [ RunTime:0.0003s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_tcard [ RunTime:0.0002s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111113','111112') [ RunTime:0.0368s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111112','111111') [ RunTime:0.0377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-06T23:17:01+08:00 ] ::1 /barbershopums/index.php/Home/User/testFunction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111113','111113') [ RunTime:0.0532s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_mcard [ RunTime:0.0003s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_tcard [ RunTime:0.0002s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111113','111112') [ RunTime:0.0164s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111112','111111') [ RunTime:0.0371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-06T23:17:29+08:00 ] ::1 /barbershopums/index.php/Home/User/testFunction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111113','111113') [ RunTime:0.0516s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_mcard [ RunTime:0.0004s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_tcard [ RunTime:0.0003s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111113','111112') [ RunTime:0.0366s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111113','111111') [ RunTime:0.0123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-06T23:19:29+08:00 ] ::1 /barbershopums/index.php/Home/User/testFunction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111112','111112') [ RunTime:0.1306s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_mcard [ RunTime:0.0005s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_tcard [ RunTime:0.0004s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111112','111111') [ RunTime:0.1797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-06T23:19:43+08:00 ] ::1 /barbershopums/index.php/Home/User/testFunction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111111','111111') [ RunTime:0.1085s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_mcard [ RunTime:0.0010s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_tcard [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-06T23:21:13+08:00 ] ::1 /barbershopums/index.php/Home/User/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-06T23:21:14+08:00 ] ::1 /barbershopums/index.php/Home/System/showEmp?_=1470496874066
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SELECT * FROM bsums_emp; [ RunTime:0.0004s ]
+
+[ 2016-08-06T23:21:14+08:00 ] ::1 /barbershopums/index.php/Home/System/showConsumeType?_=1470496874067
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SELECT * FROM bsums_consume_type ; [ RunTime:0.0004s ]
+
+[ 2016-08-06T23:21:31+08:00 ] ::1 /barbershopums/index.php/Home/User/showAllUser?_=1470496874068
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SELECT card_guid,card_username,card_userphone FROM bsums_mcard; [ RunTime:0.0004s ]
+SQL: SELECT card_guid,card_username,card_userphone FROM bsums_tcard; [ RunTime:0.0003s ]
+
+[ 2016-08-06T23:21:42+08:00 ] ::1 /barbershopums/index.php/Home/User/addUserWork?add=1&cardguid=111114&name=%E5%B0%8F%E5%86%9B&sex=1&birth=2016-08-31&phone=13816244919&emp=8&upcard=111113&regMoney=300&password=123456&_=1470496874069
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SELECT card_guid FROM bsums_mcard WHERE card_guid='111114'; [ RunTime:0.0004s ]
+
+[ 2016-08-06T23:21:56+08:00 ] ::1 /barbershopums/index.php/Home/User/addUserWork?add=1&cardguid=111114&name=%E5%B0%8F%E5%86%9B&sex=1&birth=2016-08-31&phone=13816244919&emp=8&upcard=111113&regMoney=300&password=123456&_=1470496874070
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SELECT card_guid FROM bsums_mcard WHERE card_guid='111114'; [ RunTime:0.0004s ]
+
+[ 2016-08-06T23:22:26+08:00 ] ::1 /barbershopums/index.php/Home/User/addUserWork?add=1&cardguid=111114&name=%E5%B0%8F%E5%86%9B&sex=1&birth=2016-08-31&phone=13816244919&emp=8&upcard=111113&regMoney=300&password=123456&_=1470496874071
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SELECT card_guid FROM bsums_mcard WHERE card_guid='111114'; [ RunTime:0.0005s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111114','111114') [ RunTime:0.1370s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_mcard [ RunTime:0.0005s ]
+SQL: SELECT card_guid,card_upcard FROM bsums_tcard [ RunTime:0.0003s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111114','111113') [ RunTime:0.0453s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111114','111112') [ RunTime:0.0243s ]
+SQL: INSERT INTO bsums_pay_up_card (puc_down_card,puc_up_card) VALUES ('111114','111111') [ RunTime:0.0326s ]
+SQL: INSERT INTO bsums_mcard (card_guid,card_money,card_regmoney,card_regtime,card_username,card_usersex,card_userbirth,card_userphone,card_emp,card_password,card_upcard) VALUES('111114','300','300','2016-08-06 23:08:26','小军','1','2016-08-31','13816244919','8','e10adc3949ba59abbe56e057f20f883e','111113'); [ RunTime:0.0421s ]
+

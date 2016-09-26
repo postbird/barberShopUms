@@ -1,0 +1,101 @@
+/*
+	powered by postbird 
+	2016-08-04
+	http://www.ptbird.cn
+	license:MIT
+*/
+/**********************修改的一些bootstrap的样式*********************************/
+/**
+	bootstrap中,有的css样式不是很喜欢,但是避免更改源文件,在引入文件更改
+**/
+* { font-family: "Microsoft YaHei"  }
+.btn{border-radius: 0px;}
+.panel{border-radius: 0px;}
+.panel-heading{border-top-left-radius: 0px;  border-top-right-radius: 0px;}
+.panel-footer{border-bottom-right-radius: 0px;  border-bottom-left-radius: 0px;}
+/*hr{margin-bottom: 3px;margin-top:6px;}*/
+.list-group-item:hover{background-color: #fafafa;}
+.navbar{border-radius: 0px;}
+.list-group-item:first-child {border-top-left-radius: 0px;border-top-right-radius: 0px;}
+.list-group-item:last-child {margin-bottom: 0;border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;}
+.modal-content{border-radius: 0px;}
+.container .jumbotron, .container-fluid .jumbotron {
+    border-radius: 0px;
+}
+/**********************通用的css样式 ---  对样式的扩充*********************************/
+
+.black-body{background-color: #000000;}
+.fa{cursor: pointer;}
+a:hover{text-decoration: none;}
+.inline-block{display: inline-block;}
+.white-font{color:#fff;}
+.text-indent{text-indent: 2em;}
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+.block-font{display: block;}
+.red-font{color:#E7290F;}
+.primary-box{padding:10px;color:#fff;background-color: #337ab7;border-color: #2e6da4;cursor: pointer;}
+.success-box{padding:10px;color:#fff;background-color: #5cb85c;border-color: #4cae4c;cursor: pointer;}
+.info-box{padding:10px;color:#fff;background-color: #5bc0de;border-color: #46b8da;cursor: pointer;}
+.warning-box{padding:10px;color:#fff;background-color: #f0ad4e;border-color: #eea236;cursor: pointer;}
+.danger-box{padding:10px;color:#fff;background-color: #d9534f;border-color: #d43f3a;cursor: pointer;}
+.primary-box:hover{background-color:#333;}
+.danger-box:hover{background-color:#333;}
+.warning-box:hover{background-color:#333;}
+.info-box:hover{background-color:#333;}
+.success-box:hover{background-color:#333;}
+.red-box{background-color:#E7290F;color:#fff;padding:5px;margin-bottom: 5px;}
+.padding-top-bottom{padding-top:5px;padding-bottom:5px;}
+.big-font{font-size:18px;}
+.middle-font{font-size:16px;}
+.red-square-span{display:inline-block;background-color: #E7290F;color:#fff;padding:2px;}
+.no-padding{padding:0px;}
+.no-padding-left{padding-left: 0px;}
+.no-padding-right{padding-right: 0px;}
+.overflow-div{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.red-flag-box{display:block;min-height:50px;max-height: 50px;width:9px;background-color: #E7290F;}
+.margin-top-px{margin-top:20px;}
+/**********************登陆界面的css*********************************/
+.login{
+	width:60%;
+	height:300px;
+	box-shadow:0 0 10px 10px #888;
+	margin:0px auto 0 auto;
+	border-radius: 30px 0;
+	padding:30px;
+}
+
+/**********************欢迎界面的css*********************************/
+.welcome-item-box{
+	padding:20px;
+	text-align:center;
+}
+.welcome-img-box{
+	height:200px;
+	width: 300px;
+	padding:30px;
+	border:solid 1px #cccccc;
+	cursor: pointer;
+}
+.welcome-img-box:hover{
+	background-color: #ccc;
+	color:#000000;
+}
+.navbar-link:hover{background-color: #cccccc;}
+.sys-active{background-color: #333;}
+
+/**********************用户操作界面的css*********************************/
+.span-middle{width:45%;display: inline-block;}
+/*显示等级的时候 需要横向无限*/
+.level-info-table-box{overflow-x:scroll;white-space:nowrap;width:100%;min-height:600px;}
+.level-user-info-box{cursor:pointer;margin-right:10px;display:inline-block;border:solid 1px #ddd;width:200px;height:150px;box-shadow: 0px 0px 4px #333;border-radius: 20px;padding:10px;}
+.level-user-info-box:hover{background-color:#fafafa;}
+/*.level-user-info-box-root {display: block;}*/
+.show-all-card{height:300px;overflow-y:scroll;}
+.show-all-upcard{height:300px;overflow-y:scroll;}
+/*控制显示用户操作菜单的css 在box css上面的添加*/
+.user-select-item-box{min-height:120px;min-width:140px;text-align:center;font-size:27px;padding:10px;padding-top:40px;}
+/**************************报表界面css***************************/
+#reportShowModal .modal-dialog{width:1000px;}
+/**************************用户查询**************/
+.level-user-info-box-user-show{cursor:pointer;margin-right:10px;display:inline-block;border:solid 1px #ddd;width:100px;height:100px;box-shadow: 0px 0px 4px #333;border-radius: 20px;padding:2px;}

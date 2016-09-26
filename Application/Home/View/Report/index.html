@@ -1,0 +1,102 @@
+<include file="Public/header" />
+<title>BSUMS|报表查看</title>
+
+</head>
+<include file="Public/header-index" />
+<!--提示modal-->
+<div class="modal " id="msModal" tabindex="-1" role="dialog" aria-labelledby="msModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="msModalLabel">提示信息</h4>
+      </div>
+      <div class="modal-body col-sm-12 text-center">
+	      <h4><i class="fa fa-info-circle"></i></h4>
+	      <p class="text-danger">   <span class="alert-msg">未知错误！</span></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">关闭</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--查看report的modal-->
+<div class="modal fade" id="reportShowModal" tabindex="-1" role="dialog" aria-labelledby="reportShowModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="reportShowModalLabel">提示信息</h4>
+      </div>
+      <div class="modal-body col-sm-12 text-center">
+	     <table class="text-center table table-striped  table-bordered table-hover table-condensed margin-top-px report-show-table">
+			
+		</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">关闭</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--container content box-->
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 panel">
+			<div class="margin-top-px">
+				<div class="col-sm-2 text-right"><h4>时间从</h4></div>
+				<div class="col-sm-3">
+					<input type="text" class="form-control report-start-time" id="pickReportStartTime"placeholder="选择开始时间...." value="">
+                          <script>
+                  		      $('#pickReportStartTime').val(new Date().getFullYear()+"-"+(new Date().getMonth()+1)+"-"+(new Date().getDate()*1-1));
+                              $('#pickReportStartTime').datepicker({
+                                  format: "yyyy-mm-dd",
+                                  language: "cn",
+                                  autoclose: true,
+                                  todayHighlight: true
+                              });
+                          </script>
+				</div>
+				<div class="col-sm-1 text-center"><h4>到</h4></div>
+				<div class="col-sm-3">
+					<input type="text" class="form-control report-end-time" id="pickReportEndTime"placeholder="选择结束时间...." value="">
+                          <script>
+                  		      $('#pickReportEndTime').val(new Date().getFullYear()+"-"+(new Date().getMonth()+1)+"-"+new Date().getDate());
+                              $('#pickReportEndTime').datepicker({
+                                  format: "yyyy-mm-dd",
+                                  language: "cn",
+                                  autoclose: true,
+                                  todayHighlight: true
+                              });
+                          </script>
+				</div>
+				<div class="col-sm-3"><button class="btn btn-primary " onclick="reportController();">查询报表</button></div>
+			</div>
+		</div>
+	</div><!--row end-->
+	<div class="row">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h4>报表一览  <small><font color="#ccc">由上面查询结果进行显示</font></small></h4>
+			</div>
+			<div class="panel-body">
+				<table class="text-center table table-striped  table-bordered table-hover table-condensed margin-top-px report-all-table">
+			
+				</table>
+			</div>
+		</div>
+	</div>
+</div><!--container end-->
+
+
+<script>
+	$("document").ready(function(){
+		addActiveClass("navbar-link-5");
+		initReport();
+	});
+	
+	
+</script>
+<include file="Public/footer-index" />
+<include file="Public/footer" />

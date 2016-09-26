@@ -1,0 +1,6 @@
+[ 2016-08-05T00:28:06+08:00 ] ::1 /barbershopums/index.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+ERR: 无法加载模块:Index
+

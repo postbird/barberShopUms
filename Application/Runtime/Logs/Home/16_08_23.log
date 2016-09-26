@@ -1,0 +1,1321 @@
+[ 2016-08-23T08:53:07+08:00 ] ::1 /barbershopums/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.165096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.066996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.067158s ]
+
+[ 2016-08-23T08:53:07+08:00 ] ::1 /barbershopums/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.299666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.299849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017737s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:53:12+08:00 ] ::1 /barbershopums/index.php/Home/Login/loginCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-08-23T08:53:49+08:00 ] ::1 /barbershopums/index.php/Home/Login/loginCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SELECT adminname,adminpassword FROM bsums_admin WHERE adminname='666' [ RunTime:0.0195s ]
+
+[ 2016-08-23T08:53:49+08:00 ] ::1 /barbershopums/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:53:53+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:53:53+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471913633200
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-08-23T08:53:53+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:53:53+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showEmp?_=1471913633201
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-08-23T08:53:53+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:53:53+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913633202
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-08-23T08:53:53+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:54:16+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+
+[ 2016-08-23T08:54:16+08:00 ] ::1 /barbershopums/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:54:20+08:00 ] ::1 /barbershopums/index.php/Home/Login/loginCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SELECT adminname,adminpassword FROM bsums_admin WHERE adminname='666' [ RunTime:0.0005s ]
+
+[ 2016-08-23T08:54:20+08:00 ] ::1 /barbershopums/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:54:22+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:54:22+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471913662577
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-08-23T08:54:22+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showEmp?_=1471913662578
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+
+[ 2016-08-23T08:54:22+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913662579
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+
+[ 2016-08-23T08:58:31+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000377s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:58:31+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471913911390
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-08-23T08:58:31+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showEmp?_=1471913911391
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+
+[ 2016-08-23T08:58:31+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913911392
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+
+[ 2016-08-23T08:58:48+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:58:49+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471913928934
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-08-23T08:58:49+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showEmp?_=1471913928935
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+
+[ 2016-08-23T08:58:49+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913928936
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+
+[ 2016-08-23T08:58:59+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:58:59+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471913939248
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+
+[ 2016-08-23T08:58:59+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showEmp?_=1471913939249
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+
+[ 2016-08-23T08:58:59+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913939250
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-08-23T08:59:09+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:59:10+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471913950049
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-08-23T08:59:10+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showEmp?_=1471913950050
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+
+[ 2016-08-23T08:59:10+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913950051
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+
+[ 2016-08-23T08:59:11+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:59:11+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000540s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000673s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:59:11+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471913951574
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+
+[ 2016-08-23T08:59:11+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:59:12+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471913952115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+
+[ 2016-08-23T08:59:12+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showEmp?_=1471913952116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+
+[ 2016-08-23T08:59:12+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913952117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+
+[ 2016-08-23T08:59:14+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000529s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000633s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:59:14+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471913954664
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+
+[ 2016-08-23T08:59:14+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showEmp?_=1471913954665
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+
+[ 2016-08-23T08:59:14+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913954666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+
+[ 2016-08-23T08:59:24+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913954667
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+
+[ 2016-08-23T08:59:24+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913954668
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+
+[ 2016-08-23T08:59:24+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913954669
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+
+[ 2016-08-23T08:59:25+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913954670
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+
+[ 2016-08-23T08:59:25+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913954671
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+
+[ 2016-08-23T08:59:30+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T08:59:30+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471913970522
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-08-23T08:59:30+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showEmp?_=1471913970523
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+
+[ 2016-08-23T08:59:30+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471913970524
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-08-23T09:00:36+08:00 ] ::1 /barbershopums/index.php/Home/User/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:00:36+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471914036363
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+
+[ 2016-08-23T09:00:36+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showEmp?_=1471914036362
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-08-23T09:00:41+08:00 ] ::1 /barbershopums/index.php/Home/Report/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:00:41+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Report/showReport?start=2016-8-22&end=2016-8-23&_=1471914041142
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+
+[ 2016-08-23T09:00:43+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Report/showReport?start=2016-8-22&end=2016-8-23&_=1471914041143
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+
+[ 2016-08-23T09:00:43+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Report/showReport?start=2016-8-22&end=2016-8-23&_=1471914041144
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+
+[ 2016-08-23T09:00:44+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Report/showReport?start=2016-8-22&end=2016-8-23&_=1471914041145
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+
+[ 2016-08-23T09:00:44+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Report/showReport?start=2016-8-22&end=2016-8-23&_=1471914041146
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+
+[ 2016-08-23T09:00:57+08:00 ] ::1 /barbershopums/index.php/Home/Report/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:00:58+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Report/showReport?start=2016-8-22&end=2016-8-23&_=1471914058442
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-08-23T09:09:24+08:00 ] ::1 /barbershopums/index.php/Home/Report/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:09:25+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Report/showReport?start=2016-8-22&end=2016-8-23&_=1471914565059
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-08-23T09:09:41+08:00 ] ::1 /barbershopums/index.php/Home/Report/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:09:41+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Report/showReport?start=2016-8-22&end=2016-8-23&_=1471914581749
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-08-23T09:09:50+08:00 ] ::1 /barbershopums/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:09:50+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471914590674
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-08-23T09:09:50+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:09:50+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showEmp?_=1471914590675
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+
+[ 2016-08-23T09:09:50+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:09:50+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/User/showAllUser?_=1471914590676
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+
+[ 2016-08-23T09:09:50+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:09:53+08:00 ] ::1 /barbershopums/index.php/Home/Report/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:09:53+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Report/showReport?start=2016-8-22&end=2016-8-23&_=1471914593387
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+
+[ 2016-08-23T09:09:53+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:10:01+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Report/showReport?start=2016-8-22&end=2016-8-23&_=1471914593388
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+
+[ 2016-08-23T09:10:01+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:10:04+08:00 ] ::1 /barbershopums/index.php/Home/Report/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:10:04+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/Report/showReport?start=2016-8-22&end=2016-8-23&_=1471914604311
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-08-23T09:10:25+08:00 ] ::1 /barbershopums/index.php/Home/User/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:10:25+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showEmp?_=1471914625561
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+
+[ 2016-08-23T09:10:25+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471914625562
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-08-23T09:10:42+08:00 ] ::1 /barbershopums/index.php/Home/User/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:10:43+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showEmp?_=1471914642982
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-08-23T09:10:43+08:00 ] 127.0.0.1 /barbershopums/index.php/Home/System/showConsumeType?_=1471914642983
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-08-23T09:12:05+08:00 ] ::1 /barbershopums/index.php/Home/User/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:12:06+08:00 ] ::1 /barbershopums/index.php/Home/System/showEmp?_=1471914725746
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+SQL: SELECT * FROM bsums_emp; [ RunTime:0.0004s ]
+
+[ 2016-08-23T09:12:06+08:00 ] ::1 /barbershopums/index.php/Home/System/showConsumeType?_=1471914725747
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SELECT * FROM bsums_consume_type ; [ RunTime:0.0004s ]
+
+[ 2016-08-23T09:12:13+08:00 ] ::1 /barbershopums/index.php/Home/User/showAllUser?_=1471914725748
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SELECT card_guid,card_username,card_userphone,card_active,card_off,card_loss FROM bsums_mcard; [ RunTime:0.0004s ]
+SQL: SELECT card_guid,card_username,card_userphone,card_active,card_off,card_loss FROM bsums_tcard; [ RunTime:0.0003s ]
+
+[ 2016-08-23T09:12:20+08:00 ] ::1 /barbershopums/index.php/Home/Report/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:12:21+08:00 ] ::1 /barbershopums/index.php/Home/Report/showReport?start=2016-8-22&end=2016-8-23&_=1471914740873
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SELECT * FROM bsums_mcard WHERE UNIX_TIMESTAMP(card_regtime)>=1471795200 AND UNIX_TIMESTAMP(card_regtime)<=1471967999; [ RunTime:0.0007s ]
+SQL: SELECT * FROM bsums_tcard,bsums_consume_type WHERE bsums_tcard.card_consume_type = bsums_consume_type.ctype_id AND  UNIX_TIMESTAMP(card_regtime)>=1471795200 AND UNIX_TIMESTAMP(card_regtime)<=1471967999; [ RunTime:0.0005s ]
+SQL: SELECT * FROM bsums_recharge WHERE  UNIX_TIMESTAMP(recharge_time)>=1471795200 AND UNIX_TIMESTAMP(recharge_time)<=1471967999;; [ RunTime:0.0003s ]
+SQL: SELECT * FROM bsums_card_off_log  WHERE  UNIX_TIMESTAMP(col_time)>=1471795200 AND UNIX_TIMESTAMP(col_time)<=1471967999; [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: allConsumeMcard I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 98 行.
+NOTIC: [8] Undefined index: allConsumeTcard I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 99 行.
+SQL: SELECT * FROM bsums_consume_mcard WHERE  UNIX_TIMESTAMP(mc_time)>=1471795200 AND UNIX_TIMESTAMP(mc_time)<=1471967999; [ RunTime:0.0004s ]
+SQL: SELECT * FROM bsums_consume_tcard WHERE  UNIX_TIMESTAMP(tc_time)>=1471795200 AND UNIX_TIMESTAMP(tc_time)<=1471967999; [ RunTime:0.0004s ]
+
+[ 2016-08-23T09:12:33+08:00 ] ::1 /barbershopums/index.php/Home/Report/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Constant THINK_PATH already defined I:\appwork\xampp\htdocs\BarberShopUMS\index.php 第 29 行.
+
+[ 2016-08-23T09:12:33+08:00 ] ::1 /barbershopums/index.php/Home/Report/showReport?start=2016-8-22&end=2016-8-23&_=1471914753670
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SELECT * FROM bsums_mcard WHERE UNIX_TIMESTAMP(card_regtime)>=1471795200 AND UNIX_TIMESTAMP(card_regtime)<=1471967999; [ RunTime:0.0007s ]
+SQL: SELECT * FROM bsums_tcard,bsums_consume_type WHERE bsums_tcard.card_consume_type = bsums_consume_type.ctype_id AND  UNIX_TIMESTAMP(card_regtime)>=1471795200 AND UNIX_TIMESTAMP(card_regtime)<=1471967999; [ RunTime:0.0005s ]
+SQL: SELECT * FROM bsums_recharge WHERE  UNIX_TIMESTAMP(recharge_time)>=1471795200 AND UNIX_TIMESTAMP(recharge_time)<=1471967999;; [ RunTime:0.0003s ]
+SQL: SELECT * FROM bsums_card_off_log  WHERE  UNIX_TIMESTAMP(col_time)>=1471795200 AND UNIX_TIMESTAMP(col_time)<=1471967999; [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: allConsumeMcard I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 98 行.
+NOTIC: [8] Undefined index: allConsumeTcard I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 99 行.
+SQL: SELECT * FROM bsums_consume_mcard WHERE  UNIX_TIMESTAMP(mc_time)>=1471795200 AND UNIX_TIMESTAMP(mc_time)<=1471967999; [ RunTime:0.0004s ]
+SQL: SELECT * FROM bsums_consume_tcard WHERE  UNIX_TIMESTAMP(tc_time)>=1471795200 AND UNIX_TIMESTAMP(tc_time)<=1471967999; [ RunTime:0.0003s ]
+
+[ 2016-08-23T09:13:21+08:00 ] ::1 /barbershopums/index.php/Home/Report/showReport?start=2016-08-02&end=2016-8-23&_=1471914753671
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SELECT * FROM bsums_mcard WHERE UNIX_TIMESTAMP(card_regtime)>=1470067200 AND UNIX_TIMESTAMP(card_regtime)<=1471967999; [ RunTime:0.0007s ]
+SQL: SELECT * FROM bsums_tcard,bsums_consume_type WHERE bsums_tcard.card_consume_type = bsums_consume_type.ctype_id AND  UNIX_TIMESTAMP(card_regtime)>=1470067200 AND UNIX_TIMESTAMP(card_regtime)<=1471967999; [ RunTime:0.0006s ]
+SQL: SELECT * FROM bsums_recharge WHERE  UNIX_TIMESTAMP(recharge_time)>=1470067200 AND UNIX_TIMESTAMP(recharge_time)<=1471967999;; [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 2 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 50 行.
+NOTIC: [8] Undefined offset: 3 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 50 行.
+NOTIC: [8] Undefined offset: 4 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 50 行.
+NOTIC: [8] Undefined offset: 5 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 50 行.
+NOTIC: [8] Undefined offset: 6 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 50 行.
+NOTIC: [8] Undefined offset: 7 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 50 行.
+NOTIC: [8] Undefined offset: 8 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 50 行.
+NOTIC: [8] Undefined offset: 9 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 50 行.
+NOTIC: [8] Undefined offset: 10 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 50 行.
+NOTIC: [8] Undefined offset: 11 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 50 行.
+NOTIC: [8] Undefined offset: 12 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 50 行.
+NOTIC: [8] Undefined offset: 2 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 3 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 4 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 5 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 6 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 7 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 8 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 9 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 10 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 11 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 12 I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 64 行.
+SQL: SELECT * FROM bsums_card_off_log  WHERE  UNIX_TIMESTAMP(col_time)>=1470067200 AND UNIX_TIMESTAMP(col_time)<=1471967999; [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: allConsumeMcard I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 98 行.
+NOTIC: [8] Undefined index: allConsumeTcard I:\appwork\xampp\htdocs\BarberShopUMS\Application\Home\Controller\ReportController.class.php 第 99 行.
+SQL: SELECT * FROM bsums_consume_mcard WHERE  UNIX_TIMESTAMP(mc_time)>=1470067200 AND UNIX_TIMESTAMP(mc_time)<=1471967999; [ RunTime:0.0004s ]
+SQL: SELECT * FROM bsums_consume_tcard WHERE  UNIX_TIMESTAMP(tc_time)>=1470067200 AND UNIX_TIMESTAMP(tc_time)<=1471967999; [ RunTime:0.0004s ]
+
